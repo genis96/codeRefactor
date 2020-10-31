@@ -8,23 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* removed the use of the class header in CSS */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* removed the h1 before the class .seo because its not needed */
+header .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* gave it a class of nav in html and removed the "header div" */
+.nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* removed "header div ul" and just changed it to .nav ul, same for "header div ul li", you just need the class name */
+.nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
