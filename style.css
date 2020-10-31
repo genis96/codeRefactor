@@ -8,7 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/* removed the use of the class header in CSS */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -35,7 +34,7 @@ header h1 {
     font-size: 20px;
 }
 
-/* removed "header div ul" and just changed it to .nav ul, same for "header div ul li", you just need the class name */
+/* removed "header div ul" because you can just use a class name */
 .nav ul {
     list-style-type: none;
 }
@@ -136,4 +135,27 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* Responsive */
+@media(max-width: 1000px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media(max-width: 880px) {
+    .benefits {
+        display: none;
+    }
+    .content {
+        width: 95%;
+    }
+    .content h2 {
+        font-size: 25px;
+    }
+    .search-online-social {
+        margin-bottom: 2%;
+        padding-bottom: 45%;
+    }
 }
