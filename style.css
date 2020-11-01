@@ -63,7 +63,7 @@ p {
     background-position: center;
 }
 
-/*  the semantic structure now follows that of the HTML elements */
+/* semantic structure now follows that of HTML elements */
 .content {
     width: 75%;
     display: inline-block;
@@ -88,7 +88,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* follow DRY for img and h2s*/
+/* DRY for img and h2s*/
 .content img {
     max-height: 200px;
 }
@@ -120,7 +120,7 @@ p {
     max-width: 150px;
 }
 
-/* added an ID of #general-benefits to all 3 divs in this section */
+/* added ID of #general-benefits to all 3 divs in this section */
 #general-benefits {
     margin-bottom: 32px;
     color: #ffffff;
