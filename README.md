@@ -1,7 +1,8 @@
 # codeRefactor
 
-path for screenshot:
-/Users/genis/Desktop/Code_Bootcamp/Start/Class3/codeRefactor/Screenshot_Hw_Image.jpg
+another try:
+![Screenshot](Screenshot_Hw_Image.jpg)
+
 
 #instructions below
 
