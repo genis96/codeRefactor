@@ -128,7 +128,6 @@ p {
     max-width: 150px;
 }
 
-/* added ID of #general-benefits to all 3 divs in this section */
 #general-benefits {
     margin-bottom: 32px;
     color: var(--primary-white);
