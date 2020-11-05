@@ -3,7 +3,7 @@
 Live URL: https://genis96.github.io/codeRefactor/
 
 
-success:
+screenshot below:
 ![Screenshot](Screenshot_Hw_Image.jpg)
 
 
